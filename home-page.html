@@ -18,10 +18,9 @@
 
         <ul class="">
             <!-- js -->
-
             <li class="list-unstyled"><strong>Student Name:</strong> <span id="name"></span></li>
             <li class="list-unstyled"><strong>Student ID:</strong> <span id="st-id"></span></li>
-            <li class="list-unstyled"><a class="link-danger" href="">Log out</a></li>
+            <li class="list-unstyled"><a class="link-danger" href="index.html">Log out</a></li>
         </ul>
     </section>
     <nav class="navbar navbar-expand-lg navbar-dark bg-prime">
@@ -60,21 +59,21 @@
 
     <main class="container-fluid">
         <section class="row">
-            <div class="col-9">
-                <p class="border border-2 border-primary mt-5"> <span class="text-success">Notification:</span> sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.</p>
-                <p class="border border-2 border-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum
+            <div class="col-10">
+                <p class="border border-2 border-primary mt-5 p-3 rounded-3"> <span class="text-success">Notification:</span> sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.</p>
+                <p class="border border-2 border-primary p-3 rounded-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum
                     eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit
                     modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique
                     ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo
                     reprehenderit modi.</p>
-                <p class="border border-2 border-primary"><span class="text-success">Notification:</span> sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.</p>
-                <p class="border border-2 border-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum
+                <p class="border border-2 border-primary p-3 rounded-3"><span class="text-success">Notification:</span> sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.</p>
+                <p class="border border-2 border-primary p-3 rounded-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum
                     eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit
                     modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique
                     ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.</p>
-                <p class="border border-2 border-primary"><span class="text-success">Notification:</span> sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.</p>
+                <p class="border border-2 border-primary p-3 rounded-3 "><span class="text-success">Notification:</span> sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.</p>
 
-                <p class="border border-2 border-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum
+                <p class="border border-2 border-primary p-3 rounded-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum
                     eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit
                     modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique
                     ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo reprehenderit modi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut rerum eius omnis ab, facilis mollitia debitis, aliquid natus id illo
@@ -99,7 +98,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <script>
-        document.getElementById('st-id').innerText = localStorage.getItem('id')
+        const userId = document.getElementById('st-id').innerText = localStorage.getItem('id')
         document.getElementById('name').innerText = localStorage.getItem('name')
     </script>
 </body>
